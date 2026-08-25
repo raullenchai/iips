@@ -1,7 +1,7 @@
 ```
 IIP: 63
 Title: Canonical IOTX ERC-20 Contract and Token Migration
-Author: Raullen Chai (@raullenchai), Qevan Guo (@guo)
+Author: Jing Sun
 Discussions-to: TBD
 Status: Draft
 Type: Standards Track
