@@ -79,10 +79,10 @@ Staking can express operator eligibility, capacity, commitment, delegation, and 
 
 ### Economic flywheel
 
-The long-term model connects application usage to sustainable demand for networks and IOTX staking:
+The long-term model connects demand for network capabilities to sustainable demand for IOTX staking:
 
 ```text
-Application demand
+Demand for network capabilities
         |
         v
 Service and intelligence networks
@@ -100,7 +100,7 @@ Operator commitment and accountability
 More reliable networks
         |
         v
-More application demand
+More demand for network capabilities
 ```
 
 As the amount, value, or risk of work assigned to an operator grows, the IOTX that operator must acquire or attract through delegation and commit must grow with it. Each specialized network must define operator eligibility, stake-to-capacity or stake-to-risk requirements, delegation, revenue distribution, and penalties. Activity without a credible requirement for bonded IOTX should not be presented as contributing to this flywheel.
