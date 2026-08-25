@@ -345,20 +345,6 @@ This IIP addresses a broader and longer-term question: where IOTX should ultimat
 
 [IIP-56](iip-56.md) governs the deprecation of CIOTX following the ioTube incident. This proposal follows that deprecation and does not designate CIOTX as an eligible source asset for the future canonical IOTX migration.
 
-## Alternatives Considered
-
-### Keep native IOTX permanently canonical
-
-This preserves the existing sovereign architecture and avoids a canonical-asset migration. It also preserves the long-term coupling between IOTX monetary settlement and operation of the IoTeX L1.
-
-### Make Ethereum IOTX canonical while permanently retaining two sovereign systems
-
-This may simplify asset integration but would require a permanent mechanism between Ethereum-canonical IOTX and a sovereign IoTeX chain representation. Such a mechanism could become critical monetary infrastructure and should not be adopted as a permanent design without a separate security analysis.
-
-### Immediately migrate the L1 to an Ethereum L2
-
-This would combine monetary and execution changes into one decision before state migration, application compatibility, staking, and operator economics are sufficiently specified. This IIP therefore separates the long-term direction from any execution migration.
-
 ## Backwards Compatibility
 
 As an Informational IIP, this proposal makes no immediate protocol or contract change and therefore has no direct backwards-compatibility impact.
