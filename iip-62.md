@@ -99,7 +99,7 @@ Approval does not authorize a token migration, contract deployment, L1 shutdown,
 
 ### One canonical monetary asset
 
-The historical coexistence of native IOTX and legacy ERC-20 IOTX creates ambiguity about which representation is the monetary source of truth. It also requires exchanges, custodians, wallets, and users to support different settlement rails for assets carrying the same name.
+The historical coexistence of native IOTX and legacy ERC-20 IOTX creates ambiguity about which representation is the monetary source of truth. It also divides liquidity and institutional support while requiring exchanges, custodians, wallets, and users to support different settlement rails for assets carrying the same name.
 
 A single canonical IOTX on Ethereum would provide one monetary settlement layer and allow integrations to use established Ethereum token, custody, and settlement infrastructure.
 
@@ -307,6 +307,10 @@ Third, Ethereum provides stronger connectivity to capital and liquidity. It is a
 
 Fourth, Ethereum reduces recurring integration burdens for exchanges, custodians, wallets, and institutional partners that already support Ethereum. This is an important practical benefit, but it is not the strategic reason for the proposal. Exchange friction exposed the architectural problem; it did not create it.
 
+Moving only the token contract while leaving the monetary and staking core dependent on a separate sovereign settlement layer would not fully resolve fragmentation. It would require a permanent mechanism between Ethereum-canonical IOTX and the chain where staking claims remain authoritative. That mechanism would become critical monetary infrastructure: a compromise, accounting failure, or prolonged outage could fragment backing, disrupt staking, or create competing claims on the same economic IOTX.
+
+For that reason, the preferred direction moves canonical IOTX and its persistent staking settlement to the same Ethereum foundation. The existing IoTeX L1 may continue to provide execution during this evolution, but it does not need to remain the permanent source of monetary truth. Any implementation of this direction remains subject to separate Standards Track IIPs.
+
 The reason for choosing Ethereum is broader than exchange convenience. IoTeX should own the layers where it can create differentiated value and rely on shared infrastructure where differentiation is limited. IoTeX's differentiated value lies in coordinating devices, machines, AI, DePIN, real-world data, compute, and verifiable services. Ethereum's differentiated value lies in monetary settlement, economic security, liquidity, custody, and interoperability.
 
 The proposal therefore shifts IoTeX from vertically owning every layer of the stack toward owning the layers where IoTeX can create differentiated value. This is specialization, not an immediate abandonment of the existing L1: any change to the execution layer remains subject to separate governance approval.
@@ -314,6 +318,10 @@ The proposal therefore shifts IoTeX from vertically owning every layer of the st
 ### Why a service and security network?
 
 Useful off-chain and real-world services require operators, service discovery, payments, monitoring, and economic accountability. IOTX can coordinate these functions and secure operator commitments even when the services are consumed across multiple blockchains or by applications that abstract blockchain interaction from users.
+
+The core work of the IoTeX Network is to help applications, people, AI, and machines discover and use models, data, compute, tools, observations, and physical-world capabilities provided by independent operators. It should establish identity and permissions, match demand with resources, measure work, verify results, route compensation, and turn reliable feedback into further learning.
+
+This work can span many specialized networks and execution environments. Operating a blockchain may support the mission, but maintaining an independent settlement layer is not itself the mission.
 
 ### Why IOTX?
 
