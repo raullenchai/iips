@@ -125,7 +125,7 @@ IOTX staking can provide service-level cryptoeconomic security: operators bond I
 
 ### Support a product-led network
 
-Network services should respond to real product and developer demand. Applications should be able to purchase useful services without requiring every end user to understand or directly acquire IOTX. Payment abstraction may allow applications to pay in fiat, stablecoins, or other supported assets while the underlying protocol uses IOTX for operator bonding, settlement, incentives, or security.
+Network services should respond to real product and developer demand. Applications should consume useful services from operators whose eligibility, capacity, and economic commitments are backed by IOTX. Infrastructure should be built in response to demonstrated usage rather than speculative assumptions about future demand.
 
 Existing and emerging IoTeX applications, including local-first AI products such as Rapid, can provide an early window into this larger system. Product usage can reveal demand for external models, private data and memory, tools, compute, long-running research, verification, other agents, and physical-world access. No individual application defines the protocol or the long-term vision.
 
@@ -140,10 +140,10 @@ Application demand
 IoTeX services
         |
         v
-Operator revenue
+Operator revenue and capacity
         |
         v
-IOTX bonding and staking
+Required IOTX bonding and staking
         |
         v
 Cryptoeconomic security
@@ -155,7 +155,9 @@ More reliable services
 More application demand
 ```
 
-Future Standards Track IIPs should define how service revenue, operator bonding requirements, protocol reserves, and other mechanisms create sustainable economic demand for IOTX without requiring end users to interact directly with the token. This IIP does not prescribe token buybacks or any other specific value-accrual mechanism.
+The flywheel requires a measurable relationship between network usage and IOTX demand. As the amount, value, or risk of work assigned to an operator grows, the IOTX that operator must acquire or attract through delegation and place at risk should grow with it.
+
+Future Standards Track IIPs must define this relationship for each specialized network, including operator eligibility, stake-to-capacity or stake-to-risk requirements, delegation, revenue distribution, and penalties. A service that creates activity but no credible requirement for bonded IOTX should not be presented as contributing to IOTX utility or this economic flywheel.
 
 ## Proposed Direction
 
@@ -333,9 +335,7 @@ This work can span many specialized networks and execution environments. Operati
 
 IOTX represents economic membership and security capacity in the IoTeX Network. Operators that wish to earn from IoTeX-coordinated services should acquire or attract delegated IOTX and place that economic value at risk against defined service commitments. As demand for economically useful operator capacity grows, the amount of IOTX required or delegated to secure that capacity should grow with it.
 
-External assets such as fiat, stablecoins, or ETH may be accepted for user payments and service fees. Payment flexibility should not displace IOTX as the endogenous security collateral of the IoTeX Network. Replacing IOTX in that role would require separate governance approval.
-
-This distinction allows applications to hide token complexity from users while preserving a direct economic relationship between network adoption, operator participation, and demand for bonded IOTX.
+IOTX should therefore be an indispensable security asset rather than an optional payment or reward overlay. Each specialized network must establish a credible link between the work it coordinates and the IOTX required to qualify for, perform, or secure that work. Replacing IOTX as the endogenous security collateral of the IoTeX Network would require separate governance approval.
 
 ### Chainlink as a conceptual precedent
 
