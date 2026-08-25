@@ -8,13 +8,9 @@ Type: Informational
 Created: 2026-08-24
 ```
 
-## Simple Summary
-
-This IIP proposes a long-term direction for IoTeX: establish IOTX on Ethereum as the single canonical monetary asset and evolve IoTeX into a decentralized service and security network for user-owned AI, devices, DePIN, and real-world applications. Operators stake IOTX to provide useful, verifiable services across this network.
-
-This is a directional proposal. It does not deploy a new token, initiate a token migration, shut down the IoTeX Layer 1, select a rollup architecture, or define final staking parameters. Those actions require separate Standards Track IIPs.
-
 ## Abstract
+
+This IIP defines an architectural direction for IoTeX's long-term mission: build a global intelligence that belongs to everyone, is controlled by no one, and never stops learning. People, AI, devices, and machines can contribute questions, knowledge, data, models, compute, experiments, observations, and real-world capabilities while preserving individual sovereignty.
 
 IOTX currently exists across a history of native and Ethereum-based representations, while its primary utility has been tied to gas, governance, staking, and block production on the sovereign IoTeX Layer 1. This architecture has supported the network to date, but it also fragments monetary settlement and closely couples the purpose of IOTX to the continued operation of a specific blockchain.
 
