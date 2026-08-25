@@ -12,12 +12,12 @@ Created: 2026-08-24
 
 This IIP defines an architectural direction for IoTeX's long-term mission: build a global intelligence that belongs to everyone, is controlled by no one, and never stops learning. People, AI, devices, and machines can contribute questions, knowledge, data, models, compute, experiments, observations, and real-world capabilities while preserving individual sovereignty.
 
-IOTX currently exists across a history of native and Ethereum-based representations, while its primary utility has been tied to gas, governance, staking, and block production on the sovereign IoTeX Layer 1. This architecture has supported the network to date, but it also fragments monetary settlement and closely couples the purpose of IOTX to the continued operation of a specific blockchain.
+IOTX currently exists across a history of native and Ethereum-based representations, while its primary utility has been tied to gas, governance, staking, and block production on the sovereign IoTeX Layer 1. This architecture has supported the network to date, but it also fragments monetary settlement, liquidity and closely couples the purpose of IOTX to the continued operation of a specific blockchain.
 
 This IIP proposes a longer-term model with two distinct layers:
 
-1. **Ethereum as the canonical monetary and staking settlement layer for IOTX.** Follow-up migration IIPs will provide eligible native IOTX and legacy Ethereum ERC-20 IOTX with a one-to-one path into one canonical Ethereum asset, subject to a maximum economic supply of 10,000,000,000 IOTX.
-2. **IoTeX as a decentralized service and security network.** Operators stake or bond IOTX to provide useful services such as device identity, data attestation, AI inference, compute, DePIN verification, and other forms of verifiable off-chain work.
+1. **Ethereum as the canonical monetary and staking settlement layer for IOTX.** Follow-up migration IIPs will provide eligible native IOTX and legacy Ethereum ERC-20 IOTX with a one-to-one path into one canonical Ethereum asset, subject to a maximum economic supply of 10,000,000,000 IOTX (unchanged).
+2. **IoTeX as a decentralized network of services and intelligence.** Operators stake or bond IOTX to provide useful services and intelligence such as device identity, data attestation, AI inference, compute, DePIN verification, and other forms of verifiable off-chain work.
 
 The existing IoTeX Layer 1 continues operating during the transition. Follow-up Standards Track IIPs will define the implementation sequence for moving canonical monetary and staking settlement to Ethereum while preserving continuity for applications, users, delegates, and stakers.
 
