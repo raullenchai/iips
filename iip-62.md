@@ -316,12 +316,6 @@ IOTX represents economic membership and security capacity across IoTeX service a
 
 IOTX is therefore the common security asset that enables these networks rather than an optional payment or reward overlay. Each network must establish a credible link between the work it coordinates and the IOTX required to qualify for, perform, or secure that work. Replacing IOTX as the endogenous security collateral of the IoTeX Network would require separate governance approval.
 
-### Chainlink as a conceptual precedent
-
-Chainlink demonstrates a useful separation between a token's settlement environment and the decentralized networks that use it. LINK is used for service payments and cryptoeconomic security, while node operators provide oracle and computation services across many networks. Chainlink staking allows node operators and community participants to back defined service performance with staked LINK.
-
-IoTeX does not need to replicate Chainlink's products or staking model. The more relevant precedent is architectural: an Ethereum-based token can serve as the coordination and security layer for a broader network of independently operated services. IoTeX can apply this model by using IOTX staking to enable service and intelligence networks for devices, DePIN infrastructure, real-world data, AI, compute, and verification.
-
 ### Why make staking the shared foundation?
 
 Staking turns IOTX into economically meaningful security capacity for service and intelligence networks. It enables operators to back defined commitments, gives holders and delegates a continuing role in supporting useful networks, and connects growth in network demand to demand for bonded IOTX. Each network must identify what staking enables, what is being secured, and how performance is measured.
@@ -377,9 +371,6 @@ Each proposal should include concrete specifications, threat models, test cases,
 
 - [IIP-56: Deprecation of CIOTX Across All Networks](iip-56.md)
 - [IIP-57: Trustless Bridge: Replacing Keys with Proofs](iip-57.md)
-- [Chainlink Economics](https://chain.link/economics)
-- [Chainlink Staking](https://chain.link/economics/staking)
-- [Chainlink Developer Documentation](https://docs.chain.link/)
 
 ## Copyright
 
