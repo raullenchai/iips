@@ -99,9 +99,17 @@ Approval does not authorize a token migration, contract deployment, L1 shutdown,
 
 ### One canonical monetary asset
 
-The historical coexistence of native IOTX and legacy ERC-20 IOTX creates ambiguity about which representation is the monetary source of truth. It also divides liquidity and institutional support while requiring exchanges, custodians, wallets, and users to support different settlement rails for assets carrying the same name.
+The historical coexistence of native IOTX and legacy ERC-20 IOTX creates ambiguity about which representation is the monetary source of truth. It also requires exchanges, custodians, wallets, and users to support different settlement rails for assets carrying the same name.
 
 A single canonical IOTX on Ethereum would provide one monetary settlement layer and allow integrations to use established Ethereum token, custody, and settlement infrastructure.
+
+### Reduce structural liquidity fragmentation
+
+Liquidity fragmentation has been a persistent problem for the IoTeX ecosystem. Native IOTX and legacy ERC-20 IOTX have existed on separate settlement rails, and not every exchange, custodian, market maker, wallet, or application supports both. Moving between representations has not always been frictionless or uniformly available.
+
+This divides market-making inventory, exchange access, on-chain liquidity, collateral utility, and institutional support. Even when different representations refer to the same underlying economic asset, fragmented rails can produce uneven access, shallower liquidity, and weaker price convergence.
+
+Establishing one canonical IOTX on Ethereum will not create liquidity by itself. It can, however, remove a structural source of fragmentation by allowing exchanges, custodians, liquidity providers, DeFi applications, and users to converge over time on one settlement asset and one broadly supported integration rail.
 
 ### Separate the network mission from the blockchain
 
