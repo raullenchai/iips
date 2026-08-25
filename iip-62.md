@@ -253,33 +253,6 @@ IoTeX service and intelligence networks are not restricted to a single execution
 
 This allows IOTX staking to enable new networks across an evolving execution architecture.
 
-## Conceptual Architecture
-
-```text
-Ethereum
-  canonical IOTX supply, ownership, transfers, and staking
-                         |
-                         v
-               shared IOTX staking foundation
-                         |
-       +-----------------+------------------+
-       |                 |                  |
-       v                 v                  v
- AI and research    Data and compute    Verification and
-    networks           networks        physical intelligence
-       |                 |                  |
-       +-----------------+------------------+
-                         |
-                         v
-                    IoTeX Network
-                         |
-                         +--> IoTeX execution
-                         +--> Ethereum and Ethereum L2s
-                         +--> other networks and off-chain systems
-```
-
-The blockchain is an execution environment used by the network. It is not, by itself, the full definition of the network.
-
 ## Rationale
 
 ### Why Ethereum?
