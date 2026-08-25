@@ -21,9 +21,15 @@ IOTX currently exists across a history of native and Ethereum-based representati
 This IIP proposes a longer-term model with two distinct layers:
 
 1. **Ethereum as the canonical monetary and staking settlement layer for IOTX.** A future migration would provide eligible native IOTX and legacy Ethereum ERC-20 IOTX with a one-to-one path into one canonical Ethereum asset, subject to a maximum economic supply of 10,000,000,000 IOTX.
-2. **IoTeX as a decentralized utility network.** Operators would stake or bond IOTX to provide useful services such as device identity, data attestation, AI inference, compute, DePIN verification, and other forms of verifiable off-chain work.
+2. **IoTeX as a decentralized service and security network.** Operators would stake or bond IOTX to provide useful services such as device identity, data attestation, AI inference, compute, DePIN verification, and other forms of verifiable off-chain work.
 
 The IoTeX Layer 1 may continue operating during this evolution. Whether it remains a sovereign L1, becomes an Ethereum-secured execution environment, or is supplemented by other execution environments is outside the scope of this IIP and must be decided separately.
+
+## Effect of Approval
+
+Approval of this IIP through IoTeX governance establishes Ethereum-canonical IOTX and the decentralized service-and-security model as the preferred long-term architectural direction for IoTeX. It provides a strategic mandate for the research, design, and follow-up proposals needed to implement that direction.
+
+Approval does not authorize a token migration, contract deployment, change to the existing IoTeX L1, or modification of current token-holder or staking rights. Each such change requires a separate Standards Track IIP with its own specification, security analysis, implementation plan, and governance approval.
 
 ## Motivation
 
@@ -48,6 +54,8 @@ IOTX staking can provide service-level cryptoeconomic security: operators bond I
 ### Support a product-led network
 
 Network services should respond to real product and developer demand. Applications should be able to purchase useful services without requiring every end user to understand or directly acquire IOTX. Payment abstraction may allow applications to pay in fiat, stablecoins, or other supported assets while the underlying protocol uses IOTX for operator bonding, settlement, incentives, or security.
+
+Existing and emerging IoTeX applications, including local-first AI products such as Rapid, can serve as early consumers of these network services and help validate which decentralized services have real demand.
 
 ### Economic flywheel
 
@@ -110,9 +118,9 @@ Where technically possible, an existing locked staking position should migrate i
 
 This principle protects existing commitments while allowing the purpose of staking to evolve.
 
-### 4. IoTeX utility network
+### 4. IoTeX Network
 
-The IoTeX Network should progressively support independently operated service networks secured by IOTX. Potential service categories include:
+The IoTeX Network is a decentralized service and security network. It should progressively support independently operated services secured by IOTX. Potential service categories include:
 
 - device and machine identity;
 - hardware and software attestation;
@@ -138,7 +146,7 @@ Over time, operator economics should increasingly be supported by service fees a
 
 ### 6. Chain-agnostic services
 
-IoTeX utility services should not be restricted to a single execution environment. They may serve applications on IoTeX, Ethereum, Ethereum L2s, or other networks where demand exists.
+IoTeX Network services should not be restricted to a single execution environment. They may serve applications on IoTeX, Ethereum, Ethereum L2s, or other networks where demand exists.
 
 This allows the IoTeX Network to grow as a service and security layer even if its execution architecture changes over time.
 
@@ -146,7 +154,7 @@ This allows the IoTeX Network to grow as a service and security layer even if it
 
 This IIP does not prescribe the final architecture of the IoTeX blockchain.
 
-The existing IoTeX L1 may continue to provide execution while the utility network develops. A future proposal may evaluate state-preserving migration to an Ethereum-secured execution environment, continued sovereign L1 operation, or a hybrid architecture. Such a proposal must independently address application state, chain history, addresses, gas, data availability, sequencing, proving, exits, governance, and operational continuity.
+The existing IoTeX L1 may continue to provide execution while the IoTeX Network develops. A future proposal may evaluate state-preserving migration to an Ethereum-secured execution environment, continued sovereign L1 operation, or a hybrid architecture. Such a proposal must independently address application state, chain history, addresses, gas, data availability, sequencing, proving, exits, governance, and operational continuity.
 
 No L1 shutdown or L2 migration is authorized by this IIP.
 
@@ -157,7 +165,7 @@ Ethereum
   canonical IOTX + staking + monetary settlement
                          |
                          v
-IoTeX Utility Network
+IoTeX Network
   operators bonded by IOTX
   |- device identity and attestation
   |- DePIN and real-world verification
@@ -176,11 +184,23 @@ The blockchain is an execution environment used by the network. It is not, by it
 
 ### Why Ethereum?
 
-Ethereum provides a widely integrated settlement environment for fungible tokens, custody, smart-contract staking, and institutional infrastructure. Making Ethereum the canonical monetary layer can reduce ambiguity around IOTX without requiring every IoTeX utility service to execute directly on Ethereum.
+Ethereum provides a widely integrated settlement environment for fungible tokens, custody, smart-contract staking, liquidity, interoperability, and institutional infrastructure. Making Ethereum the canonical monetary layer can reduce ambiguity around IOTX without requiring every IoTeX Network service to execute directly on Ethereum.
 
-### Why a utility network?
+The reason for choosing Ethereum is broader than exchange convenience. IoTeX should own the layers where it can create differentiated value and rely on shared infrastructure where differentiation is limited. IoTeX's differentiated value lies in coordinating devices, machines, AI, DePIN, real-world data, compute, and verifiable services. Ethereum's differentiated value lies in monetary settlement, economic security, liquidity, custody, and interoperability.
+
+The proposal therefore shifts IoTeX from vertically owning every layer of the stack toward owning the layers where IoTeX can create differentiated value. This is specialization, not an immediate abandonment of the existing L1: any change to the execution layer remains subject to separate governance approval.
+
+### Why a service and security network?
 
 Useful off-chain and real-world services require operators, service discovery, payments, monitoring, and economic accountability. IOTX can coordinate these functions and secure operator commitments even when the services are consumed across multiple blockchains or by applications that abstract blockchain interaction from users.
+
+### Why IOTX?
+
+IOTX represents economic membership and security capacity in the IoTeX Network. Operators that wish to earn from IoTeX-coordinated services should acquire or attract delegated IOTX and place that economic value at risk against defined service commitments. As demand for economically useful operator capacity grows, the amount of IOTX required or delegated to secure that capacity should grow with it.
+
+External assets such as fiat, stablecoins, or ETH may be accepted for user payments and service fees. Payment flexibility should not displace IOTX as the endogenous security collateral of the IoTeX Network. Replacing IOTX in that role would require separate governance approval.
+
+This distinction allows applications to hide token complexity from users while preserving a direct economic relationship between network adoption, operator participation, and demand for bonded IOTX.
 
 ### Chainlink as a conceptual precedent
 
@@ -247,7 +267,7 @@ Implementation of this direction should be divided into independently reviewable
 1. canonical IOTX contract and supply-accounting rules;
 2. native and legacy ERC-20 migration mechanisms;
 3. existing staking-position migration;
-4. utility-network operator and staking architecture;
+4. IoTeX Network operator and staking architecture;
 5. initial service-specific protocols and economics; and
 6. any change to IoTeX L1 execution or settlement.
 
