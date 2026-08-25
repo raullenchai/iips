@@ -327,7 +327,7 @@ This distinction allows applications to hide token complexity from users while p
 
 Chainlink demonstrates a useful separation between a token's settlement environment and the decentralized networks that use it. LINK is used for service payments and cryptoeconomic security, while node operators provide oracle and computation services across many networks. Chainlink staking allows node operators and community participants to back defined service performance with staked LINK.
 
-IoTeX should not copy Chainlink's products or staking implementation directly. The relevant precedent is architectural: an Ethereum-based token can coordinate and secure a broader network of independently operated services. IoTeX can apply that pattern to devices, DePIN, real-world data, AI, compute, and verification.
+IoTeX does not need to replicate Chainlink's products or staking model. The more relevant precedent is architectural: an Ethereum-based token can serve as the coordination and security layer for a broader network of independently operated services. IoTeX can apply this model to devices, DePIN infrastructure, real-world data, AI, compute, and verification.
 
 ### Why retain staking?
 
