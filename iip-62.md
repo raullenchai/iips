@@ -310,12 +310,11 @@ Any migration escrow must enforce supply conservation through publicly auditable
 
 Implementation of this direction should be divided into independently reviewable Standards Track IIPs, including:
 
-1. canonical IOTX contract and supply-accounting rules;
-2. native and legacy ERC-20 migration mechanisms;
-3. existing staking-position migration;
-4. IoTeX Network operator and staking architecture;
-5. initial service-specific protocols and economics; and
-6. any change to IoTeX L1 execution or settlement.
+1. [IIP-63](iip-63.md), which specifies the canonical IOTX contract, supply-accounting rules, and native and legacy ERC-20 liquid migration mechanisms;
+2. existing staking-position and governance migration;
+3. IoTeX Network operator and staking architecture;
+4. initial service-specific protocols and economics; and
+5. any change to IoTeX L1 execution or settlement.
 
 Each proposal should include concrete specifications, threat models, test cases, audits, activation criteria, and rollback or recovery procedures appropriate to its scope.
 
@@ -323,6 +322,7 @@ Each proposal should include concrete specifications, threat models, test cases,
 
 - [IIP-56: Deprecation of CIOTX Across All Networks](iip-56.md)
 - [IIP-57: Trustless Bridge: Replacing Keys with Proofs](iip-57.md)
+- [IIP-63: Canonical IOTX ERC-20 Contract and Token Migration](iip-63.md)
 
 ## Copyright
 
