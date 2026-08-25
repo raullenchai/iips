@@ -187,7 +187,7 @@ Any future implementation must preserve the following invariants:
 - The maximum economic supply remains **10,000,000,000 IOTX**.
 - Each eligible source IOTX receives no more than one canonical IOTX.
 - Migration uses a **1:1 denomination** and does not redenominate holders.
-- A migrated source claim must be irreversibly burned, retired, or accounted for against a supply-constrained, non-custodial smart-contract reserve before its canonical counterpart becomes economically active.
+- A migrated source claim must be irreversibly burned, retired, or accounted for through a supply-constrained, verifiable, non-custodial smart-contract escrow before its canonical counterpart becomes economically active.
 - The migration process must prevent double claims across all eligible source representations.
 - Supply, retirement, escrow, and migration accounting must be publicly auditable.
 
@@ -216,7 +216,9 @@ An existing locked staking position must migrate into an economically equivalent
 - remaining lock duration; and
 - economically material staking rights.
 
-A later Standards Track IIP must define the treatment of delegates, voting rights, accumulated rewards, auto-stake settings, contract-based staking, and exceptional cases.
+Ethereum-canonical IOTX will carry governance rights over the IoTeX protocol, with canonical staking positions serving as the basis for governance participation.
+
+A later Standards Track IIP must define delegate representation, voting mechanics, accumulated rewards, auto-stake settings, contract-based staking, and exceptional cases.
 
 This principle protects existing commitments while allowing the same staking foundation to enable new service and intelligence networks.
 
@@ -302,7 +304,7 @@ Future implementations must address at least:
 
 This IIP does not select a migration proof system, bridge, committee, rollup, or staking contract.
 
-Any migration reserve must enforce supply conservation through publicly auditable, non-custodial smart-contract logic. Canonical IOTX may be released only against verifiable retirement of an eligible source claim; release authority must not depend on discretionary control by a multisig or other custodian.
+Any migration escrow must enforce supply conservation through publicly auditable, non-custodial smart-contract logic. Canonical IOTX may be released only against verifiable retirement of an eligible source claim; release authority must not depend on discretionary control by a multisig or other custodian.
 
 ## Follow-up Proposals
 
