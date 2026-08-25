@@ -180,6 +180,8 @@ The canonical asset will become the recognized representation of IOTX for supply
 
 The canonical contract design should favor simple and auditable supply controls, minimized privileged authority, transparent governance, and broad compatibility with Ethereum infrastructure.
 
+The permanent canonical token and the temporary migration system should be separated. The token contract should remain minimal and minimally privileged, while migration-specific verification, accounting, and temporary issuance authority reside in dedicated contracts that can be permanently disabled after migration.
+
 ### 2. Supply and migration principles
 
 Any future implementation must preserve the following invariants:
