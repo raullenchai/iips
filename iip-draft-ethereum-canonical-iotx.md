@@ -1,7 +1,7 @@
 ```
 IIP: <to be assigned>
 Title: Ethereum-Canonical IOTX and the Evolution of the IoTeX Network
-Author: ghclean (@ghclean)
+Author: Raullen Chai (@raullen), Qevan Guo
 Discussions-to: TBD
 Status: Draft
 Type: Informational
