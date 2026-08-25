@@ -199,7 +199,7 @@ A later Standards Track IIP must define the treatment of delegates, voting right
 
 This principle protects existing commitments while allowing the same staking foundation to enable new service and intelligence networks.
 
-### 4. IoTeX Network
+### 4. IOTX staking enables service and intelligence networks
 
 The IoTeX Network is an open environment in which decentralized service and intelligence networks can emerge. Canonical IOTX staking is the shared security foundation that enables these networks as real demand emerges.
 
@@ -237,8 +237,6 @@ Potential specialized networks include:
 
 These service and intelligence networks do not all need to exist immediately or share identical designs. Each should emerge in response to demonstrated demand and specify the work performed, consumers of the service, revenue model, operator requirements, measurable performance conditions, and security assumptions. IoTeX should not create artificial services merely to manufacture staking utility.
 
-### 5. Operator and community staking
-
 The staking foundation for service and intelligence networks should distinguish between operator responsibility and community participation.
 
 Operators bond IOTX to become eligible for jobs, demonstrate economic commitment, and back defined service guarantees. Community holders may delegate or stake in support of operators and receive an appropriate share of eligible rewards without transferring ownership of their principal to those operators.
@@ -250,8 +248,6 @@ The continuity principle is: preserve the staking base first, then use it to ena
 Slashing should apply only when faults are objective, attributable, and independently verifiable. Services that cannot define safe slashing conditions may use reputation, withheld payment, limited job eligibility, or other mechanisms instead.
 
 Operator economics should be supported by service fees and real network revenue.
-
-### 6. Chain-agnostic networks
 
 IoTeX service and intelligence networks are not restricted to a single execution environment. They can serve applications on IoTeX, Ethereum, Ethereum L2s, or other networks where demand exists.
 
