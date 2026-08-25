@@ -266,14 +266,6 @@ IoTeX Network services should not be restricted to a single execution environmen
 
 This allows the IoTeX Network to grow as a service and security layer even if its execution architecture changes over time.
 
-### 7. Execution remains a separate decision
-
-This IIP does not prescribe the final architecture of the IoTeX blockchain.
-
-The existing IoTeX L1 may continue to provide execution while the IoTeX Network develops. A future proposal may evaluate state-preserving migration to an Ethereum-secured execution environment, continued sovereign L1 operation, or a hybrid architecture. Such a proposal must independently address application state, chain history, addresses, gas, data availability, sequencing, proving, exits, governance, and operational continuity.
-
-No L1 shutdown or L2 migration is authorized by this IIP.
-
 ## Conceptual Architecture
 
 ```text
