@@ -180,8 +180,6 @@ Any future implementation should preserve the following invariants:
 
 Eligible native IOTX and legitimate legacy Ethereum ERC-20 IOTX should receive migration paths defined by later IIPs.
 
-**CIOTX is excluded.** CIOTX is deprecated under [IIP-56](iip-56.md) and does not create a claim on canonical IOTX under this proposal. This IIP neither reopens nor extends the CIOTX claims and wind-down process.
-
 ### 3. Preserve staking commitments
 
 Moving the canonical asset must not automatically release existing staking commitments.
@@ -359,7 +357,7 @@ This IIP addresses a broader and longer-term question: where IOTX should ultimat
 
 ### IIP-56
 
-[IIP-56](iip-56.md) governs the deprecation of CIOTX following the ioTube incident. This proposal follows that deprecation and does not designate CIOTX as an eligible source asset for the future canonical IOTX migration.
+[IIP-56](iip-56.md) governs the deprecation and wind-down of CIOTX following the historical ioTube incident. Consistent with that existing process, CIOTX is not designated as an eligible source asset for the future canonical IOTX migration, and this proposal does not reopen or extend CIOTX claims.
 
 ## Backwards Compatibility
 
