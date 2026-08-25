@@ -17,7 +17,7 @@ IOTX exists across native and Ethereum-based representations, with utility tied 
 This IIP proposes a longer-term model with two distinct layers:
 
 1. **Ethereum as the canonical home for IOTX.** Ethereum becomes the authoritative layer for IOTX supply, ownership, transfers, and staking. Follow-up migration IIPs will provide eligible native IOTX and legacy Ethereum ERC-20 IOTX with a one-to-one path into one canonical Ethereum asset, with the maximum economic supply unchanged at 10,000,000,000 IOTX.
-2. **IoTeX as a foundation for decentralized service and intelligence networks.** IOTX staking provides a common economic foundation for participation, commitment, delegation, and accountability across independently operated networks.
+2. **IoTeX as a foundation for open service and intelligence networks.** IOTX staking provides a common economic foundation for participation, commitment, delegation, and accountability across independently operated networks.
 
 The existing IoTeX Layer 1 continues operating during the transition. Follow-up Standards Track IIPs will define the implementation sequence for establishing Ethereum as the canonical home for IOTX supply, ownership, transfers, and staking while preserving continuity for applications, users, delegates, and stakers.
 
@@ -224,7 +224,7 @@ This principle protects existing commitments while allowing the same staking fou
 
 ### 4. IOTX staking enables service and intelligence networks
 
-The IoTeX Network is an open environment in which decentralized service and intelligence networks can emerge. Canonical IOTX staking provides a common economic foundation for participation, commitment, delegation, and accountability across these networks.
+The IoTeX Network is an open environment in which independently operated service and intelligence networks can emerge. Canonical IOTX staking provides a common economic foundation for participation, commitment, delegation, and accountability across these networks.
 
 Potential specialized networks include:
 
